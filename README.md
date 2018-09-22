@@ -23,7 +23,7 @@ are the same as those you used in the population map you input to Stacks.
 
 In the terminal, navigate to the directory where you saved the python script. Then type:
 
-	  python vcf_program.py file/path/to_your/vcf_file.vcf file/path/to_your/sample_phenotype_list.txt
+	  python Vcf_sex_markers.py file/path/to_your/vcf_file.vcf file/path/to_your/sample_phenotype_list.txt
 
 The script will then search for sex marker candidates assuming 1. male heterogamety, and then 2. female heterogamety. 
 After completing each search, the script will write a tab delimited file containing the catalog locus number and snp location 
@@ -56,7 +56,7 @@ Sample_4.matches.tsv
 In the terminal, navigate to the directory that contains the cstacks and sstacks output and save the python script in this same 
 location. Then type:
 
-	  python pres_abs_program.py file/path/to_your/sample_phenotype_list.txt
+	  python presence_absence_sex_markers.py file/path/to_your/sample_phenotype_list.txt
 
 The script will then search for presence/absence sex marker candidates assuming 1. male heterogamety, and then 2. female heterogamety. 
 After completing each search, the script will write a tab delimited file containing the catalog locus number of the candidate markers, and 
