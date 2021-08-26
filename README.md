@@ -3,8 +3,7 @@ Scripts for finding candidate sex markers from output files of Stacks pipeline f
 
 Instructions for use
 
-Note: These scripts have been tested on Linux. If you use them on other operating systems, please raise an issue that says they work (this 
-README will then be edited) or raise an issue that describes the problem you ran into.
+Note: These scripts have been tested on Linux.
 
 ##############
 Vcf_sex_markers.py
